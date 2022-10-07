@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CSS Selector Reference</title>
+  </head>
+  <body>
+    <h1>CSS Selector Reference</h1>
+    <h2>CSS Selectors</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Selector</th>
+          <th>Example</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="code">.class</span></td>
+          <td><span class="code">.contaier</span></td>
+          <td>Selects all elements with class="container"</td>
+        </tr>
+        <tr>
+          <td><span class="code">.class1.class2</span></td>
+          <td><span class="code">.container.center</span></td>
+          <td>Selects all elements with both container and center set within its class attribute</td>
+        </tr>
+        <tr>
+          <td><span class="code">.class1 .class2</span></td>
+          <td><span class="code">.container .card</span></td>
+          <td>Selects all elements with card that is a descendant of an element with container</td>
+        </tr>
+        <tr>
+          <td><span class="code">#id</span></td>
+          <td><span class="code">#firstname</span></td>
+          <td>Selects the element with id="firstname"</td>
+        </tr>
+        <tr>
+          <td><span class="code">*</span></td>
+          <td><span class="code"></span>*</td>
+          <td>Selects all elements</td>
+        </tr>
+        <tr>
+          <td><span class="code"> element</span></td>
+          <td><span class="code">p</span></td>
+          <td>Selects all &lt;p&gt; elements</td>
+        </tr>
+        <tr>
+          <td><span class="code">element>element</span></td>
+          <td><span class="code">div > p</span></td>
+          <td>Selects all paragraph elements where the parent is a &lt;div&gt;> element</td>
+        </tr>
+        <tr>
+          <td><span class="code">element+element</span></td>
+          <td><span class="code">div + p</span></td>
+          <td>Selects the first &lt;p&gt; element that is placed immediately after &lt;div&gt;> elements</td>
+        </tr>
+        <tr>
+          <td><span class="code">element1~element2</span></td>
+          <td><span class="code">p ~ ul</span></td>
+          <td>Selects every &lt;ul&gt; element that is preceded by a &lt;p&gt; element</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #0c2427;
+  color: #e9f7f9;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px;
+}
+
+h2 {
+  color: #e9b082;
+  text-align: center;
+  margin: 10px;
+}
+
+table {
+  border: 1px solid #e9f7f9;
+  width: 650px;
+  margin: 0 auto;
+}
+
+thead {
+  background-color: #e9f7f9;
+  color: #0c2427;
+  text-align: left;
+}
+
+th {
+  padding: 0 5px;
+}
+
+td {
+  border-top: 1px solid #e9f7f9;
+  height: auto;
+  padding: 5px 5px;
+}
+
+.code {
+  font-family: monospace;
+  background-color: #02181b;
+}
